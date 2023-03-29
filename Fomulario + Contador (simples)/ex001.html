@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos Contar</title>
+    <link rel="stylesheet" href="estilo.css"> 
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+    <section> 
+        <div>
+            <p>
+                <!--o conjunto &nbsp; pode se rusaod para alinhar campos,ele snao aparecem na pagina web -->
+             Inicio: &nbsp; &nbsp; <input type="number" name="inicio" id="inicio">
+            </p>
+            <p>
+             Fim:&nbsp; &nbsp; &nbsp; &nbsp;<input type="number" name="Fim" id="fim">
+            </p>
+            <p>
+                Passo: &nbsp; <input type="number" name="passo" id="passo">
+            </p>  
+            <p>
+                <input type="button" value="Verificar" id="verificar" onclick="contar()">
+            </p>     
+        <div id="res">
+            Preparando contagem...    
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Alembergue Silva</p>
+    </footer>
+    <script src="script.js"></script>   
+</body>
+</html>

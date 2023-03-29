@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Hello Wolrd</title>
+        <meta charset="UTF-8">  
+        <link rel="stylesheet" type ="text/css" href="estilo1.css">
+        <link rel="stylesheet" type ="text/css" href="estilo2.css">        
+    </head>
+    <body>
+        <form action='#' method ='post'>
+          <fieldset>
+              <fieldset class ='grupo'>
+                <div class='campo'>
+                    <label for='Nome'>Nome</label>
+                    <input type='text' id='nome' name='nome' style='width: 10em' value=""/>
+                </div>
+              </fieldset>                   
+                        <div class="campo">
+                            <label>Sexo</label>
+                            <label>
+                                <input type="radio" name="sexo" value="masculino"> Masculino                              
+                            </label>
+                            <label>
+                                <input type="radio" name="sexo" value="masculino"> Feminino
+                            </label>
+                        </div>
+                        <div class="campo">
+                                <label for ='email'>E-mail</label>
+                                <input type='text' id='email' name='email' style='width: 20em' value=''/>  
+                        </div>
+                        <div class='campo'>
+                                <label for ='mensagem'>Mensagem</label>
+                                <textarea rows='6' style="width: 20em" id='mensagem' name="mensagem"></textarea>                               
+                        </div>
+                            <button name='botao' type="submit" id="botao" class="botao">Enviar</button>
+                                                
+          </fieldset>           
+        </form>
+    </body>
+</html>
