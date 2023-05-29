@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relatorio</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+	<img class="logo"  src="imagens/logotipo.png" alt="">
+	<div class="logado"  id="logado" name="logado">Online</div>	
+    <div class="container">
+		<h2>Relatório de Manutenção</h2>
+		<form action="/add-relatorios" method ='POST'>
+			<label for="empresa">Empresa:</label>
+			<input type="text" id="empresa" name="Empresa" required>
+			
+			<label for="site">Site:</label>
+			<input type="text" id="site" name="Site" required>
+			
+			<label for="wtg">WTG:</label>
+			<input type="text" id="wtg" name="WTG" required>
+			
+			<label for="tecnico1">Técnico 1 :</label>
+			<input type="text" id="tecnicos" name="Tecnico1" required>
+
+            <label for="tecnico2">Técnico 2 :</label>
+			<input type="text" id="tecnicos" name="Tecnico2" required>
+			
+			<label for="data">Data:</label>
+			<input type="text" id="data" name="Data" required>
+			
+			<label for="tipo_manutencao">Tipo de Manutenção:</label>
+			<select id="tipo_manutencao" name="Tipo_manutencao" required>
+				<option value="corretiva">Corretiva</option>
+				<option value="preventiva">Preventiva</option>
+			</select>
+			
+			<label for="descricao">Descrição da Atividade:</label>
+			<textarea id="atividade" name="Atividade" required></textarea>
+			
+			<label for="preenchido">Responsavel:</label>
+			<input type="text" id="responsalvel" name="Responsavel" required>
+			
+			<input type="submit" value="Enviar">		  
+		</form>
+	</div>
+	<footer>
+        <h3>&copy;Alembergue/Adriana</h3>
+    </footer>
+	<script src="script.js"></script>     
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">    
+    <title>Pagina Login</title>
+</head>
+<body>   
+    <img class="logo"  src="imagens/logotipo.png" alt="">          
+    <form>              
+        <h1 class="tituloform">Wind Systems</h1>
+		<label for="username">Usuário:</label>
+		<input type="text" id="username" name="username" placeholder="Digite seu login" required>
+
+		<label for="password">Senha:</label>
+		<input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+      
+        <button class="entrar" onclick="logar(); return false "> Entrar </button>
+
+		<p id="create"><strong>Não possui um acesso? </strong> <a href="cadastro.html"> <strong> Solicite Aqui!</strong></a></p>
+    </form>
+    <footer>
+        <h3>&copy;Alembergue/Adriana</h3>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>

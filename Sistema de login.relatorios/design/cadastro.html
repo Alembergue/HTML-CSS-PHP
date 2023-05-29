@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo3.css">
+    <title>cadastro</title>
+</head>
+<body>
+	<img class="logo"  src="imagens/logotipo.png" alt="">  
+    
+    <div class="container">
+		<h1>Cadastro</h1>
+		<form name="form1">
+			<label for="empresa">Empresa:</label>
+			<input type="text" id="empresa" name="empresa" required>
+			
+			<label for="id">ID:</label>
+			<input type="text" id="idc" name="idc" placeholder="EX:jose0258"  onchange="verificar()" required>
+			
+			<label for="nome">Nome completo:</label>
+			<input type="text" id="nome" name="nome" required>
+			
+			<label for="funcao">Departamento:</label>
+			<select id="funcao" name="funcao">
+				<option value="tecnico">Técnico</option>
+				<option value="especialista">Especialista</option>
+				<option value="programador">Engenharia</option>               
+			</select>
+
+			<label for="senha">Senha:</label>
+			<input type="password" id="senhac" name="senhac" placeholder="Sua senha deve conter mais de 6 e menos de 10 caracteres " required>
+
+			<input type="submit" value="Enviar" onclick="armazenarval(); return false">
+		</form>
+	</div>
+	<footer>
+        <h3>&copy;Alembergue/Adriana</h3>
+    </footer>
+	<script src="script.js"></script>
+</html>

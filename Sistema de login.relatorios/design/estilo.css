@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/fotos-gratis/energia-eolica-com-fundo-de-turbinas-eolicas_53876-124631.jpg?w=1380&t=st=1681327876~exp=1681328476~hmac=259d2c87bbac49c1300811f13aa3918db55ca449f19a95b11c52ebe4bccff401);
+    background-size: 2100px;
+        
+}
+
+.logo{
+    width: 5%;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+       
+}
+
+.tituloform{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+
+
+label {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+
+
+button {    
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #008CBA;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.entrar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#create {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #ff1f1f;
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
